@@ -37,6 +37,7 @@ export const MenuItems = styled.ul`
   @media (min-width: 768px) {
     flex-direction: row;
     gap: 4rem;
+
     margin: 1rem 0;
   }
 `;
