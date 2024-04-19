@@ -5,6 +5,8 @@
   --color-dark--1: #2d3439;
   --color-light--1: #fefcfb;
   --color-primary--1: #001f54;
+  --color-primary--2: #085092;
+  --transition: all 0.3s linear;
 }
 
 * {
@@ -20,5 +22,6 @@ html {
 
 body {
   font-family: "Epilogue", sans-serif;
-  background-color: var(--color-primary--1);
+
+  font-size: 1.8rem;
 }
