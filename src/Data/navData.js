@@ -6,14 +6,14 @@ export const navData = [
 
   {
     name: "About",
-    href: "about",
+    href: "#about",
   },
   {
     name: "Projets",
-    href: "projets",
+    href: "#projets",
   },
   {
     name: "Contacts",
-    href: "contacts",
+    href: "#contacts",
   },
 ];

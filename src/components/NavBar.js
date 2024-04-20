@@ -8,7 +8,7 @@ import {
 } from "./NavBar.style";
 import { Logo } from "./Logo";
 import { useState, useEffect } from "react";
-import { navData } from "../data";
+import { navData } from "../Data/navData";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +41,7 @@ const NavBar = () => {
       {(isOpen || windowWidth >= 768) && (
         <MenuItems>
           {navData.map((oneNav) => (
-            <MenuItem key={oneNav.name}>
+            <MenuItem key={oneNav.name} onClick={() => setIsOpen(false)}>
               <NavLink href={oneNav.href}>{oneNav.name}</NavLink>
             </MenuItem>
           ))}

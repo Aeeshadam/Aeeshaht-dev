@@ -4,17 +4,18 @@ import { ReactComponent as MenuIconSvg } from "../icons/Menu.svg";
 export const NavbarContainer = styled.nav`
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 10px 0px;
-  background-color: var(--color-light--1);
+  background-color: white;
   padding: 2rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: column;
+  position: sticky;
+  top: 0;
 
   @media (min-width: 768px) {
     flex-direction: row;
     align-items: center;
-
     padding: 1rem 5rem;
   }
 `;
@@ -33,11 +34,12 @@ export const MenuItems = styled.ul`
   flex-direction: column;
   gap: 0;
   justify-content: space-between;
+  transition: var(--transition);
+  background-color: var(--color-light--1);
 
   @media (min-width: 768px) {
     flex-direction: row;
     gap: 4rem;
-
     margin: 1rem 0;
   }
 `;
