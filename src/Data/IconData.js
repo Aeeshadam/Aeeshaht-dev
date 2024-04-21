@@ -5,6 +5,8 @@ import typescriptLogo from "../icons/typescript-icon.svg";
 import javascript from "../icons/javascript.svg";
 import tailwindLogo from "../icons/tailwindcss-icon.svg";
 import nextLogo from "../icons/nextjs-icon.svg";
+import gitLogo from "../icons/git-icon.svg";
+import figmaLogo from "../icons/figma.svg";
 
 export const iconData = [
   { name: "HTML", src: htmlLogo },
@@ -14,4 +16,6 @@ export const iconData = [
   { name: "TypeScript", src: typescriptLogo },
   { name: "Tailwind CSS", src: tailwindLogo },
   { name: "Next.js", src: nextLogo },
+  { name: "Git", src: gitLogo },
+  { name: "Figma", src: figmaLogo },
 ];

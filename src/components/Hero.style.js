@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.section`
-  margin: 3rem auto;
+  margin: 5rem auto;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
   background-color: white;
+  max-width: 60rem;
 
   @media (min-width: 882px) {
     flex-direction: row;
@@ -22,7 +23,7 @@ export const HeroLeft = styled.div`
   justify-content: center;
   align-items: center;
   margin: 3rem auto;
-  max-width: 90%;
+  max-width: 80%;
 
   @media (min-width: 882px) {
     margin: 5rem;
@@ -66,9 +67,32 @@ export const HeroImage = styled.img`
   border-radius: 50%;
   object-fit: cover;
   width: 100%;
+  animation-name: blobby;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+
+  @keyframes blobby {
+    0% {
+      border-radius: 50%;
+    }
+    20% {
+      border-radius: 41% 59% 41% 59% / 53% 51% 49% 47%;
+    }
+    40% {
+      border-radius: 43% 57% 41% 59% / 53% 52% 48% 47%;
+    }
+    80% {
+      border-radius: 48% 52% 41% 59% / 48% 58% 42% 52%;
+    }
+    100% {
+      border-radius: 50%;
+    }
+  }
 
   @media (min-width: 882px) {
-    max-width: 60rem;
+    max-width: 45rem;
     width: 90%;
   }
 `;

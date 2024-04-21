@@ -9,11 +9,11 @@ export const navData = [
     href: "#about",
   },
   {
-    name: "Projets",
-    href: "#projets",
+    name: "Projects",
+    href: "#projects",
   },
   {
-    name: "Contacts",
-    href: "#contacts",
+    name: "Contact",
+    href: "#contact",
   },
 ];

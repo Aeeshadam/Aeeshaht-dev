@@ -7,7 +7,8 @@ import {
   HeroP,
   HeroRight,
 } from "./Hero.style";
-import image from "../icons/photo_2024-04-19 22.19.06.jpeg";
+
+import image from "../icons/Aishat-img.jpeg";
 
 const Hero = () => {
   return (

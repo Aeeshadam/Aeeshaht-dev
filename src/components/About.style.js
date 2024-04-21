@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 const AboutContainer = styled.section`
   display: flex;
-  background: rgb(223, 226, 231);
+  background: rgb(234, 237, 240);
   background: linear-gradient(
     24deg,
-    rgba(223, 226, 231, 1) 0%,
+    rgba(234, 237, 240, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
 `;
@@ -22,7 +22,6 @@ const Tittle = styled.h3`
   font-weight: 600;
   color: var(--color-primary--2);
   margin: 3rem 0;
-  position: relative;
   text-transform: uppercase;
 `;
 
