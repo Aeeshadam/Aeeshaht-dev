@@ -10,16 +10,12 @@ export const ContactsContainer = styled.section`
     rgba(234, 237, 240, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
-  margin: 10rem auto;
+  margin: 10rem auto 0 auto;
   text-align: center;
   padding: 3rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  @media (min-width: 882px) {
-    margin: 10rem auto;
-  }
 `;
 
 export const InnerContainer = styled.div`

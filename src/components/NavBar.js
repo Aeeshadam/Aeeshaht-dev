@@ -7,12 +7,13 @@ import {
   MenuIcon,
 } from "./NavBar.style";
 import { Logo } from "./Logo";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { navData } from "../Data/navData";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const navRef = useRef(null);
 
   useEffect(() => {
     const handleResize = () => {
@@ -26,24 +27,39 @@ const NavBar = () => {
     };
   }, []);
 
-  function NavClick() {
-    setIsOpen((cur) => !cur);
-  }
+  const toggleIsOpen = () => setIsOpen((open) => !open);
+
+  const handleLinkClick = (e) => {
+    e.preventDefault();
+    const href = e.currentTarget.href;
+    const sectionId = href.split("#")[1];
+    const section = sectionId
+      ? document.getElementById(sectionId)
+      : document.body;
+    const navbarHeight = navRef.current ? navRef.current.offsetHeight : 0;
+    const top = section.offsetTop - navbarHeight;
+    window.scrollTo({ top, behavior: "smooth" });
+    setIsOpen(false);
+  };
 
   return (
-    <NavbarContainer>
+    <NavbarContainer ref={navRef}>
       <NavHeader>
         <Logo />
         {(isOpen || windowWidth < 768) && (
-          <MenuIcon onClick={() => NavClick()} />
+          <MenuIcon onClick={() => toggleIsOpen()} />
         )}
       </NavHeader>
       {(isOpen || windowWidth >= 768) && (
         <MenuItems>
           {navData.map((oneNav) => (
-            <MenuItem key={oneNav.name} onClick={() => setIsOpen(false)}>
-              <NavLink href={oneNav.href}>{oneNav.name}</NavLink>
-            </MenuItem>
+            <li key={oneNav.name}>
+              <MenuItem>
+                <NavLink href={oneNav.href} onClick={handleLinkClick}>
+                  {oneNav.name}
+                </NavLink>
+              </MenuItem>
+            </li>
           ))}
         </MenuItems>
       )}

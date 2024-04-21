@@ -5,6 +5,8 @@ import Skills from "./components/Skills";
 import About from "./components/About";
 import { Projects } from "./components/Projects.js";
 import { Contact } from "./components/Contacts.js";
+import Footer from "./components/Footer";
+//import { Link, Element } from "react-scroll";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -12,6 +12,7 @@ export const NavbarContainer = styled.nav`
   flex-direction: column;
   position: sticky;
   top: 0;
+  z-index: 100;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -63,6 +64,7 @@ export const NavLink = styled.a`
   transition: var(--transition);
   cursor: pointer;
   width: 100%;
+  //scroll-padding-top: 100px;
 
   &:hover {
     color: var(--color-primary--2);
