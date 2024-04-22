@@ -21,7 +21,7 @@ const Hero = () => {
         </HeroP>
       </HeroLeft>
       <HeroRight>
-        <HeroImage src={image} />
+        <HeroImage src={image} alt="Hero image" />
       </HeroRight>
     </HeroContainer>
   );
