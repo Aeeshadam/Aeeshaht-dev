@@ -16,16 +16,24 @@ const About = () => {
         <AboutContent>
           <Tittle>About Me</Tittle>
           <AboutP>
-            I am a frontend developer with a particular interest in making
-            things simple and automating daily tasks. I try to keep up with
-            security and best practices, and am always looking for new things to
-            learn.
+            During my academic journey, I took it upon myself to attend a UI/UX
+            bootcamp where I was a top performer and led a team to deliver real
+            life user interface.
+          </AboutP>
+
+          <AboutP>
+            Fast forward to my new life in the UK, I embarked on a journey that
+            led me from the frontline of customer service to the helm of
+            operations management. But deep down, I knew my passion lay
+            elsewhere. It was during those long shifts that I found solace in
+            coding, slowly but steadily teaching myself the fundamentals of web
+            development.
           </AboutP>
           <AboutP>
-            I am a frontend developer with a particular interest in making
-            things simple and automating daily tasks. I try to keep up with
-            security and best practices, and am always looking for new things to
-            learn.
+            Today, I'm on a mission to leverage my diverse background in
+            customer service and my newfound skills in coding to create
+            impactful digital experiences. My main stack currently is React.js
+            in combination with CSS and TypeScript.
           </AboutP>
         </AboutContent>
       </InnerContainer>

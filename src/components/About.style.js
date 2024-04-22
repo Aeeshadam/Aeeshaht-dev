@@ -64,7 +64,7 @@ const AboutP = styled.p`
   font-size: 1.5rem;
 
   @media (min-width: 882px) {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 `;
 

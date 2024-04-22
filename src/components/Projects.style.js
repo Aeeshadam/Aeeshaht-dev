@@ -58,9 +58,9 @@ export const ProjectInfo = styled.div`
 `;
 
 export const ProjectTitle = styled.h4`
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
-  color: var(--color-primary--1);
+  color: var(--color-grey--1);
   margin-bottom: 2rem;
 `;
 

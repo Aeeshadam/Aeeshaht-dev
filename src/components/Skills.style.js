@@ -21,7 +21,7 @@ export const SkillsContainer = styled.div`
 `;
 
 export const Skill = styled.img`
-  width: 6rem;
+  width: 5rem;
   object-fit: contain;
   padding: 1rem 0;
 `;
