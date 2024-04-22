@@ -61,6 +61,11 @@ const AboutP = styled.p`
   color: var(--color-dark--1);
   line-height: 2.5rem;
   margin-bottom: 1rem;
+  font-size: 1.5rem;
+
+  @media (min-width: 882px) {
+    font-size: 1.8rem;
+  }
 `;
 
 export { AboutContainer, AboutImage, AboutContent, Tittle, AboutP };

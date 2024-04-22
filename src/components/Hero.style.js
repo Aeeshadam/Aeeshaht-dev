@@ -54,6 +54,12 @@ export const HeroP = styled.p`
   color: var(--color-dark--1);
   line-height: 2.7rem;
   margin: 3rem 0;
+
+  font-size: 1.5rem;
+
+  @media (min-width: 882px) {
+    font-size: 1.8rem;
+  }
 `;
 
 export const HeroRight = styled.div`
