@@ -1,4 +1,4 @@
-import image1 from "../icons/Aishat-img.jpeg";
+//import image1 from "../icons/Aishat-img.jpeg";
 
 export const projectData = [
   /*  {
