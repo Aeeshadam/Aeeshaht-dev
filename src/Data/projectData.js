@@ -1,7 +1,7 @@
 import image1 from "../icons/Aishat-img.jpeg";
 
 export const projectData = [
-  {
+  /*  {
     id: 1,
     title: "Aishat Agbolade",
     description:
@@ -20,5 +20,5 @@ export const projectData = [
     sourceCode: "#",
     demo: "#",
     image: image1,
-  },
+   },*/
 ];
