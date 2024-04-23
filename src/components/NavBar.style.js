@@ -10,7 +10,7 @@ export const NavbarContainer = styled.nav`
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: column;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 100;
 

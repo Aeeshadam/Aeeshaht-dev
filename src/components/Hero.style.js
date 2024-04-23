@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.section`
-  margin: 5rem auto;
+  margin: 10rem auto 5rem auto;
+
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
@@ -14,6 +15,7 @@ export const HeroContainer = styled.section`
     place-items: center;
     max-width: 120rem;
     margin: 5rem auto;
+    margin: 15rem auto 5rem auto;
   }
 `;
 
