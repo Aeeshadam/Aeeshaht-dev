@@ -24,7 +24,11 @@ export const Projects = () => {
         )}
         {projectData.map((project) => {
           return (
-            <Project key={project.id}>
+            <Project
+              key={project.id}
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
               <ProjectImageContainer>
                 <ProjectImage src={project.image} />{" "}
               </ProjectImageContainer>

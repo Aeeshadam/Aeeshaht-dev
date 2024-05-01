@@ -11,7 +11,7 @@ import image from "../icons/About-img.jpeg";
 const About = () => {
   return (
     <AboutContainer id="about">
-      <InnerContainer>
+      <InnerContainer data-aos="fade-up" data-aos-duration="1500">
         <AboutImage src={image} alt="About image" />
         <AboutContent>
           <Tittle>About Me</Tittle>
