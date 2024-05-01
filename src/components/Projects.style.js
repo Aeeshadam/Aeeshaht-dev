@@ -39,6 +39,8 @@ export const ProjectImageContainer = styled.div`
 export const ProjectImage = styled.img`
   max-width: 40rem;
   transition: transform 0.3s ease;
+  object-fit: contain;
+  width: 100%;
 
   &:hover {
     transform: scale(1.1);
