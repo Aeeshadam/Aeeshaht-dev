@@ -1,24 +1,14 @@
-//import image1 from "../icons/Aishat-img.jpeg";
+import image1 from "../images/wisdom.png";
 
 export const projectData = [
-  /*  {
-    id: 1,
-    title: "Aishat Agbolade",
-    description:
-      "I'm a passionate Front-end Engineer based in the United Kingdom",
-    techStack: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
-    sourceCode: "#",
-    demo: "#",
-    image: image1,
-  },
   {
     id: 1,
-    title: "Aishat Agbolade",
+    title: "Wisdom Dictionary",
     description:
-      "I'm a passionate Front-end Engineer based in the United Kingdom",
-    techStack: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
-    sourceCode: "#",
-    demo: "#",
+      "Wisdom Dictionary is an app that helps you to find the meaning of any word, images related to that word, antonyms, synonyms and optionally you can add them to a favorite list.",
+    techStack: ["React", "React Router", "React Hook", "Tailwind CSS"],
+    sourceCode: "https://github.com/Aeeshadam/wisdom",
+    demo: "https://wisdom-dictionary.netlify.app/",
     image: image1,
-   },*/
+  },
 ];
