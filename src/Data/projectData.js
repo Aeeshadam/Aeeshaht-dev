@@ -5,7 +5,7 @@ export const projectData = [
     id: 1,
     title: "Wisdom Dictionary",
     description:
-      "Wisdom Dictionary is an app that helps you to find the meaning of any word, images related to that word, antonyms, synonyms and optionally you can add them to a favorite list.",
+      "Wisdom Dictionary is a single page app thst allows users to search for word definitions, images, synonyms, antonyms, examples, audio pronunciation, and ability to add words to a favorites list.",
     techStack: ["React", "React Router", "React Hook", "Tailwind CSS"],
     sourceCode: "https://github.com/Aeeshadam/wisdom",
     demo: "https://wisdom-dictionary.netlify.app/",

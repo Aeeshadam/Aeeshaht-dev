@@ -52,6 +52,7 @@ export const Projects = () => {
             </Project>
           );
         })}
+        <p>More projects Coming Soon 😌</p>
       </ProjectsContainer>
     </>
   );

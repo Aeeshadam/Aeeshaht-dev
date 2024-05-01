@@ -10,8 +10,8 @@ export const ProjectsContainer = styled.section`
 export const Project = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: var(--color-light--1);
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 10px 0px;
+  background-color: white;
+  box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px 0px;
   padding: 2rem;
   max-width: 50rem;
   place-items: center;
@@ -32,13 +32,12 @@ export const ProjectImageContainer = styled.div`
 
   @media (min-width: 882px) {
     width: 50%;
+    margin: 1rem;
   }
 `;
 
 export const ProjectImage = styled.img`
-  max-width: 30rem;
-  margin: 0 auto;
-
+  max-width: 40rem;
   transition: transform 0.3s ease;
 
   &:hover {
@@ -60,7 +59,7 @@ export const ProjectInfo = styled.div`
 export const ProjectTitle = styled.h4`
   font-size: 1.8rem;
   font-weight: 600;
-  color: var(--color-grey--1);
+  color: var(--color-primary--1);
   margin-bottom: 2rem;
 `;
 
@@ -91,19 +90,25 @@ export const ProjectTechStack = styled.button`
 
 export const ProjectButton = styled.button`
   padding: 1rem 2rem;
-  border: 2px solid #e5e7eb;
+  border: 2px solid var(--color-primary--2);
   border-radius: 0.5rem;
   cursor: pointer;
   margin-right: 1rem;
   background-color: transparent;
   transition: var(--transition);
+  color: var(--color-dark--1);
 
   &:hover {
-    background-color: #e5e7eb;
+    background-color: var(--color-primary--2);
+    color: white;
   }
 `;
 
 export const ProjectLink = styled.a`
   text-decoration: none;
-  color: var(--color-dark--1);
+  color: inherit;
+
+  &:hover {
+    color: white;
+  }
 `;
