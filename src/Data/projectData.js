@@ -17,7 +17,7 @@ export const projectData = [
     id: 2,
     title: "Dev Jobs",
     description:
-      "This project is a job board app, built as a challenge from Frontend Mentor with additional features implemented such as filtering, sorting, and ability to post and delete jobs.",
+      "This project is a job board app, built as a challenge from Frontend Mentor with additional features implemented such as authentication and ability to post and delete jobs.",
     techStack: [
       "React",
       "React Router",
@@ -27,7 +27,7 @@ export const projectData = [
       "Firebase",
     ],
     sourceCode: "https://github.com/Aeeshadam/devjobs",
-    demo: "https://devjobs.netlify.app/",
+    demo: "https://devvjobs.netlify.app/",
     image: image2,
   },
 ];

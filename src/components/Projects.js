@@ -17,18 +17,18 @@ import { projectData } from "../Data/projectData";
 export const Projects = () => {
   return (
     <>
-      <ProjectsContainer id="projects">
+      <ProjectsContainer
+        id="projects"
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+      >
         <Tittle>Projects</Tittle>
         {projectData.length === 0 && (
           <ProjectTitle>Projects Coming Soon 😌</ProjectTitle>
         )}
         {projectData.map((project) => {
           return (
-            <Project
-              key={project.id}
-              data-aos="zoom-in"
-              data-aos-duration="1500"
-            >
+            <Project key={project.id}>
               <ProjectImageContainer>
                 <ProjectImage src={project.image} />{" "}
               </ProjectImageContainer>

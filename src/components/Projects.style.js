@@ -13,6 +13,7 @@ export const Project = styled.div`
   background-color: white;
   box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px 0px;
   padding: 2rem;
+  border-radius: 1rem;
   max-width: 50rem;
   place-items: center;
   box-sizing: border-box;
@@ -50,8 +51,7 @@ export const ProjectImage = styled.img`
 export const ProjectInfo = styled.div`
   width: 100%;
   margin-top: 2.4rem;
-  max-width: 30rem;
-
+  max-width: 40rem;
   @media (min-width: 882px) {
     width: 50%;
     margin: 2rem;

@@ -57,6 +57,13 @@ const Tittle = styled.h3`
   text-transform: uppercase;
 `;
 
+const AboutTittle = styled(Tittle)`
+  text-align: center;
+
+  @media (min-width: 882px) {
+    text-align: left;
+  }
+`;
 const AboutP = styled.p`
   color: var(--color-dark--1);
   line-height: 2.5rem;
@@ -68,4 +75,11 @@ const AboutP = styled.p`
   }
 `;
 
-export { AboutContainer, AboutImage, AboutContent, Tittle, AboutP };
+export {
+  AboutContainer,
+  AboutImage,
+  AboutContent,
+  Tittle,
+  AboutP,
+  AboutTittle,
+};

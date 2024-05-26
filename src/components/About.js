@@ -3,7 +3,7 @@ import {
   AboutImage,
   AboutContent,
   AboutP,
-  Tittle,
+  AboutTittle,
   InnerContainer,
 } from "./About.style";
 import image from "../icons/About-img.jpeg";
@@ -14,7 +14,7 @@ const About = () => {
       <InnerContainer data-aos="fade-up" data-aos-duration="1500">
         <AboutImage src={image} alt="About image" />
         <AboutContent>
-          <Tittle>About Me</Tittle>
+          <AboutTittle>About Me</AboutTittle>
           <AboutP>
             During my academic journey, I took it upon myself to attend a UI/UX
             bootcamp where I was a top performer and led a team to deliver real
