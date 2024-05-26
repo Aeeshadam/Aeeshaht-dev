@@ -1,5 +1,5 @@
 import image1 from "../images/wisdom.png";
-import image2 from "../images/devjobs.png";
+import image2 from "../images/devJobs.png";
 
 export const projectData = [
   {
