@@ -1,4 +1,5 @@
 import image1 from "../images/wisdom.png";
+import image2 from "../images/devjobs.png";
 
 export const projectData = [
   {
@@ -10,5 +11,23 @@ export const projectData = [
     sourceCode: "https://github.com/Aeeshadam/wisdom",
     demo: "https://wisdom-dictionary.netlify.app/",
     image: image1,
+  },
+
+  {
+    id: 2,
+    title: "Dev Jobs",
+    description:
+      "This project is a job board app, built as a challenge from Frontend Mentor with additional features implemented such as filtering, sorting, and ability to post and delete jobs.",
+    techStack: [
+      "React",
+      "React Router",
+      "React Hook",
+      "Styled Components",
+      "Context API",
+      "Firebase",
+    ],
+    sourceCode: "https://github.com/Aeeshadam/devjobs",
+    demo: "https://devjobs.netlify.app/",
+    image: image2,
   },
 ];
