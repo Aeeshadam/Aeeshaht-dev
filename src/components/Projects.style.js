@@ -33,7 +33,6 @@ export const ProjectImageContainer = styled.div`
   justify-content: center;
 
   @media (min-width: 882px) {
-    margin: 1rem;
     width: 50%;
   }
 `;
@@ -45,8 +44,9 @@ export const ProjectImage = styled.img`
 `;
 
 export const ProjectInfo = styled.div`
-  margin: 2.4rem;
-  max-width: 40rem;
+  padding: 2.4rem;
+
+  width: 100%;
 
   @media (min-width: 882px) {
     width: 50%;
