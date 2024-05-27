@@ -12,46 +12,44 @@ export const Project = styled.div`
   flex-direction: column;
   background-color: white;
   box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px 0px;
-  padding: 2rem;
   border-radius: 1rem;
+  padding: 0 0 2rem 0;
   max-width: 50rem;
   place-items: center;
   box-sizing: border-box;
   margin: 5rem auto;
   text-align: left;
+  overflow: hidden;
 
-  @media (min-width: 992px) {
+  @media (min-width: 882px) {
     flex-direction: row;
-    max-width: 80rem;
+    max-width: 100rem;
   }
 `;
 
 export const ProjectImageContainer = styled.div`
   display: flex;
   width: 100%;
+  height: 100%;
   justify-content: center;
 
   @media (min-width: 882px) {
-    width: 50%;
     margin: 1rem;
+    width: 50%;
   }
 `;
 
 export const ProjectImage = styled.img`
-  max-width: 40rem;
   transition: transform 0.3s ease;
   object-fit: contain;
   width: 100%;
-
-  &:hover {
-    transform: scale(1.1);
-  }
 `;
 
 export const ProjectInfo = styled.div`
   width: 100%;
   margin-top: 2.4rem;
   max-width: 40rem;
+
   @media (min-width: 882px) {
     width: 50%;
     margin: 2rem;
